@@ -8,15 +8,15 @@ body{
     background: url("../images/dust_scratches.png");
     font-size: 18px;
     line-height: 30px;
-    max-width: 960px;
+    /* max-width: 960px; */
     margin: 0 auto;
 }
 
 /* header */
 
 header{
-    /* position: fixed; */
-    position: sticky;
+    position: fixed;
+    /* position: sticky; */
     margin: auto;
     z-index: 999;
     background: #ffffff;
@@ -30,8 +30,8 @@ header{
 }
 
  .hearder-container{
-    max-width: 960px;
-    margin: auto;
+    /* max-width: 960px; */
+    margin: 0 209.6px;
     clear: both;
     display: block;
 } 
