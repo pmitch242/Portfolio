@@ -5,14 +5,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background: url("../images/dot-grid.png");
+    background: url("../images/dust_scratches.png");
     font-size: 18px;
     line-height: 30px;
     max-width: 960px;
     margin: 0 auto;
 }
 
+/* header */
+
 header{
+    /* position: fixed; */
     position: sticky;
     margin: auto;
     z-index: 999;
@@ -92,13 +95,28 @@ h1{
 }
 
 .photome{
-    display: inline;
+    float: left;
+    /* display: inline; */
+    padding: 0 20px;
     height:300px;
+    clear: both;
 }
 
 .main-container p:first-child{
     position: relative;
+    float: left;
     right: 0;
     width: 75%;
-    display: inline-block;
+    /* display: inline-block; */
+}
+
+/* footer */
+
+footer{
+    position: sticky;
+    margin-top: 25px;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    text-align: center;
+    width: 100%;
 }
