@@ -3,47 +3,102 @@
   }
 
 body{
-    width: 960px;
     font-family: Arial, Helvetica, sans-serif;
-
+    color: #777777;
+    background: url("../images/dot-grid.png");
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 header{
-    position: fixed;
-    margin: 0 auto;
+    position: sticky;
+    margin: auto;
+    z-index: 999;
     background: #ffffff;
-    padding: 20px;
     margin-bottom: 30px;
     height: 85px;
     width: 100%;
     border-bottom: 2px solid #cccccc;
+    display: inline-block;
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.hearder-container{
+ .hearder-container{
     max-width: 960px;
-}
+    margin: auto;
+    clear: both;
+    display: block;
+} 
 
 #logo{
     position: absolute;
     top: 0;
+    margin: 0 auto;
     color: #ffffff;
     background: #4aaaa5;
-    width: 200px;
-    clear: both;
-    text-align: center;
+    width: 320px;
     height: 85px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 78px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #cccccc;
+    clear: both; 
 }
 
 nav{
     float: right;
-    width: 250px;
-    clear: both;
+    display: block;
+    margin-left: 20px;;
+    line-height: 78px;
+    font-size: 22px;
 }
 
+nav a{
+    text-decoration: none;
+    color: #777777;
+    margin-left: #777777;
+    border-right: #f0eded solid 1px;
+    padding: 0 15px;
+
+}
+
+nav a:last-child{
+    border-right: hidden;
+}
+
+/* main */
+
 .main-container{
+    position: relative;
+    padding: 20px;
     background: #ffffff;
+    margin: auto;
+    width: 960px;
     border: 1px solid #dddddd;
-    margin: 20px;
+    display: block;
+}
+
+h1{
+    color: #4aaaa5;
+    display: block;
+    padding: 0 0 30px;
+    margin: 12px 0 25px;
+    border-bottom: #dddddd 2px solid;
+}
+
+.photome{
+    display: inline;
+    height:300px;
+}
+
+.main-container p:first-child{
+    position: relative;
+    right: 0;
+    width: 75%;
+    display: inline-block;
 }
