@@ -6,9 +6,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background: url("../images/dust_scratches.png");
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
-    /* max-width: 960px; */
     margin: 0 auto;
 }
 
@@ -16,7 +15,6 @@ body{
 
 header{
     position: fixed;
-    /* position: sticky; */
     margin: auto;
     z-index: 999;
     background: #ffffff;
@@ -24,7 +22,6 @@ header{
     height: 85px;
     width: 100%;
     border-bottom: 2px solid #cccccc;
-    display: inline-block;
     clear: both;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -33,7 +30,6 @@ header{
     width: 960px;
     margin: auto;
     clear: both;
-    display: block;
 } 
 
 #logo{
@@ -81,6 +77,7 @@ nav a:last-child{
     padding: 20px;
     background: #ffffff;
     margin: auto;
+    margin-top: 44px;
     width: 960px;
     border: 1px solid #dddddd;
     display: block;
@@ -96,8 +93,7 @@ h1{
 
 .photome{
     float: left;
-    /* display: inline; */
-    padding: 0 20px;
+    padding-right: 20px;
     height:300px;
     clear: both;
 }
@@ -107,16 +103,60 @@ h1{
     float: left;
     right: 0;
     width: 75%;
-    /* display: inline-block; */
 }
 
-/* footer */
+/*  footer */
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -50px;
+  }
 
 footer{
     position: sticky;
     margin-top: 25px;
+    clear: both;
+    color: #ffffff;
+    font-size: 12px;
     border-top: 8px solid #4aaaa5;
     background: #666666;
     text-align: center;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+/* Portfolio */
+
+.project{
+    position: relative;
+    width: 300px;
+    /* margin: 20px 0 25px; */
+    float: left;
+}
+
+.project img{
     width: 100%;
+    /* margin: ; */
+}
+
+h3{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    height: 50px;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #e6f2f2;
+    text-align: center;
+    z-index: 1;
+
 }
