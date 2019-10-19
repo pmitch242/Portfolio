@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    position: fixed;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 85px;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hearder-container{
+    max-width: 960px;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 200px;
+    clear: both;
+    text-align: center;
+    height: 85px;
+}
+
+nav{
+    float: right;
+    width: 250px;
+    clear: both;
+}
+
+.main-container{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 20px;
+}
