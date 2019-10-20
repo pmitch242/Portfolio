@@ -73,25 +73,13 @@ nav a:last-child{
 /* main */
 
 .main-container{
-    /* position: relative; */
-    /* float: left;
-    width: 100%;
     max-width: 960px;
     padding: 20px;
-    background: #ffffff; */
-    margin: 44px auto 0;
-    /* border: 1px solid #dddddd; */
-    /* display: block; */
-
-    /* float: left; */
-    /* left: 298px; */
-    /* max-width: 960px; */
-    width: 960px;
-    padding: 20px;
-    /* margin: auto; */
     background: #ffffff;
-    border: 1px solid #dddddd;
+    margin: 40px auto 0;
     clear: both;
+    overflow: auto;
+    border: 1px solid #dddddd;
 }
 
 h1{
@@ -131,7 +119,7 @@ html, body {
 
 footer{
     position: sticky;
-    margin-top: 25px;
+    margin-top: 70px;
     clear: both;
     color: #ffffff;
     font-size: 12px;
