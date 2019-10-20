@@ -13,7 +13,7 @@ This repository ("Portfolio") is where I will be displaying all of my past and c
 * Johns Hopkins full-Stack Bootcamp
 * Stetson Lewis
 * Donald Hesler
-* lipsum.com
+* https://lipsum.com
 * https://www.toptal.com/designers/subtlepatterns/
 
 ## License
