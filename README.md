@@ -6,7 +6,7 @@ This repository ("Portfolio") is where I will be displaying all of my past and c
 
 * About Me (index.html) - this page will provide the viewer with a short discription about who Phill Mitchell-Matsuyama is.
 * Portfolio (protfolio.html) - displays projects created by me. 
-* Contact (contact.html) - allows the view to message me directly from the this repository.
+* Contact (contact.html) - allows the viewer to message me directly from the this repository.
 
 ## Credits
 
